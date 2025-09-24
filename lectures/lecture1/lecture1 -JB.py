@@ -25,6 +25,8 @@ lst = [1, 2, 3, 4, 5]
 def argmax(lst):
     num = max(lst)
     N = len(lst)
+    if N == 0:
+        raise ValueError('Not support emtpy lists')
     value_max = - np.inf
     imax = 0
 
@@ -38,3 +40,5 @@ def argmax(lst):
 
 i = argmax(lst)
 print(i)
+
+
