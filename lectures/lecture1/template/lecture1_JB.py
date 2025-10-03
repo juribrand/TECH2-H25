@@ -38,7 +38,8 @@ def argmax(lst):
 
     return imax
 
-i = argmax(lst)
-print(i)
+
+
+
 
 
